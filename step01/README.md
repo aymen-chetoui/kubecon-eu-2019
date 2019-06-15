@@ -65,6 +65,23 @@ ubuntu@ip-172-31-45-121:~/kubecon-eu-2019$ go get -u google.golang.org/grpc
 ubuntu@ip-172-31-45-121:~/kubecon-eu-2019$
 ```
 
+List the go packages:
+
+```
+ubuntu@ip-172-31-45-121:~/kubecon-eu-2019$ go list ...
+
+[...truncated...]
+google.golang.org/grpc/stress/metrics_client
+google.golang.org/grpc/tap
+google.golang.org/grpc/test
+google.golang.org/grpc/test/bufconn
+google.golang.org/grpc/test/codec_perf
+google.golang.org/grpc/test/go_vet
+google.golang.org/grpc/test/grpc_testing
+
+ubuntu@ip-172-31-45-121:~/kubecon-eu-2019$
+```
+
 Next we'll install Protocol Buffers. The PB release is zipped so install unzip first:
 
 ```
