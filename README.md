@@ -3,6 +3,7 @@
 
 # kubecon-eu-2019
 
+### This project is forked from https://github.com/RX-M/kubecon-eu-2019 for learning purposes
 
 ## A Day in the life of a cloud native developer
 
@@ -32,7 +33,7 @@ into ppk format.
 Clone and change into the root of the `kubecon-eu-2019` dir:
 
 ```
-ubuntu@ip-172-31-45-121:~$ git clone https://github.com/RX-M/kubecon-eu-2019.git
+ubuntu@ip-172-31-45-121:~$ git clone git@github.com:aymen-chetoui/kubecon-eu-2019.git
 
 Cloning into 'kubecon-eu-2019'...
 remote: Enumerating objects: 8, done.
